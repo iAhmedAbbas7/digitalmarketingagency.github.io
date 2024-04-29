@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+}
+.top-nav{
+    background-color: rgb(24, 30, 78);
+    padding: 12px 0px;
+}
+
+.top-nav-2 button{
+    outline: 0;
+    background-color: #181e4e;
+    color: #ffbe47;
+    border: 1px solid rgb(255, 190, 71);
+    font-weight: 400;
+    padding: 9px 24px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: DM Sans,sans-serif !important;
+    font-weight: 700;
+}
+
+.top-nav-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing-page{
+    background-color: rgb(24, 30, 78);
+}
+
+.landing-text-area h1{
+    color: white;
+    font-weight: 900;
+    font-size: 4.5rem;
+    font-family: Lato,sans-serif !important;
+    line-height: 98px;
+}
+
+.landing-text-area span{
+    color: rgb(250, 204, 21);
+}
+
+.landing-text-area h5{
+    color: white;
+    font-family: DM Sans,sans-serif !important;
+    line-height: 2; 
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.landing-text-area input{
+    padding: 14px 18px;
+    background-color: rgb(24, 30, 78);
+    outline: 0;
+    border: 1px solid white;
+    caret-color: white;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.landing-text-area button{
+    padding: 15px 18px;
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    caret-color: white;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: -6px;
+    font-family: DM Sans,sans-serif !important;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 991px) {
+    .landing-text-area button{
+        left: 0px;
+    }
+}
+
+.services-in{
+    background-color: rgb(24, 30, 78);
+    padding: 50px 0px;
+}
+
+.services-left h1{
+    color: white;
+    font-size: 3.75rem;
+    line-height: 83px;
+    font-weight: 900;
+    font-family: Lato,sans-serif !important;
+}
+
+.services-left p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: DM Sans,sans-serif !important;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.services-left .letter{
+    margin-top: 300px;
+}
+
+.services-right button{
+    padding: 15px 18px;
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    caret-color: white;
+    padding-left: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: DM Sans,sans-serif !important;
+    font-weight: 700;
+}
+
+.services-right button:hover{
+    background-color: rgb(243, 174, 36);
+}
+
+.services-right h6{
+    font-size: .875rem;
+    line-height: 1.25;
+    font-weight: 400;
+    opacity: 1;
+    font-family: DM Sans,sans-serif !important;
+}
+
+
+.services-links-row{
+    padding-bottom: 200px;
+}
+
+.services-links-row span{
+    color: rgb(255, 193, 69);
+}
+
+.services-links-row a{
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+    .services-links-row{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.button.active {
+    color: rgb(0, 102, 186);
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.left-section h6{
+    color: #800080;
+}
+
+.left-section h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.left-section p{
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.margin-text{
+    margin-left: 300px;
+}
+
+.set-text p{
+    font-size: 0.8rem;
+}
+
+.number-sec h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.7rem;
+}
+
+.number-sec p{
+    font-size: 0.8rem;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+.cards-cover{
+    background-image: url(https://images.ctfassets.net/bete4dit0n31/4hDftsEuOmW61owcyYn0EI/762b61d6ce7d6dd00fecbcfef6cceac1/Mask_Group.webp);
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    cursor: pointer;
+}
+
+.cards-main{
+    padding-bottom: 100px;
+}
+
+.cards-cover h5{
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover h2{
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover h6{
+    color: rgb(24, 30, 78);
+}
+
+.cards-cover p {
+    color: grey;
+}
+
+.cards-cover:hover{
+    background-color: rgb(24, 30, 78);
+}
+
+.cards-cover:hover h5{
+    color: white;
+}
+
+.cards-cover:hover h2{
+    color: white;
+}
+
+.cards-cover:hover h6{
+    color: white;
+}
+
+.cards-cover:hover p{
+    color: rgb(250, 204, 21);
+}
+
+.sale-sec-heading h3{
+    font-size: 1.875rem;
+    font-weight: 900;
+    font-family: Lato,sans-serif !important;
+    opacity: 1;
+    line-height: 41px;
+}
+
+.meeting-main{
+    background-color: rgb(24, 30, 70);
+}
+
+.meeting-left h1{
+    font-size: 4.5rem;
+    line-height: 1;
+    font-family: Lato,sans-serif !important;
+    opacity: 1;
+    font-weight: 900;
+    color: white;
+}
+
+.meeting-left h5{
+    font-size: 1.25rem;
+    line-height: 2;
+    font-family: DM Sans,sans-serif !important;
+    opacity: 1;
+    font-weight: 400;
+    color: white;
+}
+
+.meeting-left span{
+    color: rgb(255, 193, 69);
+}
+
+.meeting-left button{
+    background-color: rgb(255, 193, 69);
+    outline: 0;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    font-family: DM Sans,sans-serif !important;
+    font-weight: 700;
+    padding: 15px 40px;
+}
+
+.meeting-left button:hover{
+    background-color: rgb(243, 174, 36);
+}
+
+.meeting-wrapper{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.sale-sec-text{
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.line-btm{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.footer-main h5{
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: Lato,sans-serif !important;
+    line-height: 1.5;
+    color: #181e4e;
+}
+
+.footer-main a{
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: DM Sans,sans-serif !important;
+    line-height: 28px;
+    color: #181e4e;
+    text-decoration: none;
+    opacity: 1;
+}
+
+#g-an{
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: DM Sans,sans-serif !important;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    opacity: 1;
+}
+
+#footer-input{
+    outline: 0;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 11px;
+    padding: 0.25rem 0.5rem;
+    color: rgb(102, 102, 102);
+    width: 100%;
+}
+
+#footer-btn{
+    color: rgb(24, 30, 78);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: rgb(231, 232, 243);
+    border: 0;
+    outline: 0;
+    font-family: DM Sans,sans-serif !important;
+}
+
+.hello-left{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.hello-left p{
+    color: rgb(24, 30, 78);
+    font-family: Montserrat,sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40.5px;
+}
+
+.hello-left a{
+    color: rgb(24, 30, 78);
+    font-size: 3rem;
+    line-height: 1;
+    font-family: Montserrat,sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.hello-right{
+    font-size: .875rem;
+    line-height: 1.625;
+    font-family: DM Sans,sans-serif !important;
+    font-weight: 400;
+}
+
+.hello-main{
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom:  1px solid rgb(209, 209, 209);
+    background-color: #f8f8ff;
+}
+
+@media only screen and (max-width: 991px) {
+    .hello-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .hello-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+}
+
+.copyright-main{
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: DM Sans,sans-serif !important;
+    text-decoration: none;
+    opacity: 1;
+    text-align: center;
+}
